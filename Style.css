@@ -4,8 +4,25 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+.youTubeLogo {
+  display: inline-flex;
+}
 header {
   display: flex;
+}
+.first {
+  background-color: rgb(15, 15, 15);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  line-height: 20px;
+  font-size: 14px;
+  margin-bottom: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: 12px;
 }
 .btn-Trends {
   padding: 10px;
