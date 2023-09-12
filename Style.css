@@ -4,11 +4,19 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
-.youTubeLogo {
+.YouTubeLogo {
   display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
 header {
-  display: flex;
+  /* display: flex; */
+}
+input {
+  width: 300px;
+  border-radius: 10px;
+  padding: 10px 5px;
+  border: 1px solid (204, 204, 204);
 }
 .first {
   background-color: rgb(15, 15, 15);
@@ -40,4 +48,5 @@ header {
 }
 .btn-Trends:hover {
   transition: ease-in-out;
+  background-color: rgba(68, 67, 67, 0.05);
 }
