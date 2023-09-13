@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="Style.css" />
   </head>
   <body>
-    <div>
+    <!-- <div>
       <i class="fa fa-bars" aria-hidden="true"></i>
       <i class="fa fa-search" aria-hidden="true"></i>
       <i class="fa fa-microphone" aria-hidden="true"></i>
@@ -27,18 +27,18 @@
       <i class="fa fa-home" aria-hidden="true"></i>
       <i class="fa fa-angle-right" aria-hidden="true"></i>
       <i class="fa fa-caret-square-o-right" aria-hidden="true"></i>
-    </div>
+    </div> -->
 
     <nav></nav>
 
     <header>
-      <div class="YouTubeLogo">
+      <!-- <div class="YouTubeLogo">
         <i class="fa-brands fa-youtube" style="color: #f00f0f"></i>
         <h3>YouTube <sup>NG</sup></h3>
       </div>
 
       <input type="search" name="" id="" placeholder="Search" />
-      <div></div>
+      <div></div> -->
     </header>
     <div>
       <button class="first">All</button>
@@ -53,6 +53,40 @@
       <button class="btn-Trends">Data Analysis</button>
       <button class="btn-Trends">Music</button>
     </div>
+
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="Assets/hamburger-menu.svg" />
+        <img class="youtube-logo" src="Assets/youtube-logo.svg" />
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img class="search-icon" src="Assets/search.svg" />
+          <div class="tooltip">Search</div>
+        </button>
+        <!-- Put position absolute inside position relative -->
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="Assets/voice-search-icon.svg" />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="Assets/upload.svg" />
+          <div class="tooltip">Create</div>
+        </div>
+        <img class="youtube-apps-icon" src="Assets/youtube-apps.svg" />
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="Assets/notifications.svg" />
+          <div class="notifications-count">3</div>
+        </div>
+        <img
+          class="current-user-picture"
+          src="channel-pictures/my-channel.jpeg"
+        />
+      </div>
+    </header>
     <main></main>
     <footer></footer>
   </body>

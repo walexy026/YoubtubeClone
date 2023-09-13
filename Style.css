@@ -10,7 +10,7 @@
   align-items: center;
 }
 header {
-  /* display: flex; */
+  display: flex;
 }
 input {
   width: 300px;
