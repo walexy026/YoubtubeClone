@@ -5,9 +5,6 @@
   font-family: "Roboto", sans-serif;
 }
 body {
-  /* This style below will be inherited */
-  font-family: Roboto, Arial;
-  margin: 0;
   padding-top: 80px;
   padding-left: 96px;
   padding-right: 24px;
@@ -72,15 +69,14 @@ body {
 }
 
 .search-button {
-  height: 40px;
+  height: 37px;
   width: 66px;
   background-color: rgb(240, 240, 240);
-  border-width: 1px;
-  border-style: solid;
-  border-color: rgb(192, 192, 192);
+  border: 1px solid rgb(192, 192, 192);
   margin-left: -1px;
   margin-right: 10px;
   border-radius: 10px;
+  transform: translateX(-45px);
 }
 
 .search-button,
